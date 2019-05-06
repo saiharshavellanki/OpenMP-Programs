@@ -1,0 +1,13 @@
+1)  Storage complexity : O(n^2)
+    flops = O(2*n*m*p)
+
+2)  Storage : O((p+q+1)*n) 
+    flops =  O(2*r1*r1*c2) 
+
+3)
+ a) Storage : O(n)  // n is num of non-zeroes
+    flops = O(2*n1*n2) //n1 is no of non-zeroes in A,n2 in B
+ b) Storage : O(n+r) //n is no of non-zeroes ,r is number of rows
+    flops = O(2*r1*n1*n2)
+
+
